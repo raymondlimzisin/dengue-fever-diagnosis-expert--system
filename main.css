@@ -1,0 +1,185 @@
+html, body {
+	height: 100%;
+	padding: 0;
+	margin:0;
+}
+
+#question-box {
+	display: none;
+	padding-bottom: 70px;
+}
+
+#start-button {
+	margin-top: 30px;
+}
+
+#start-box {
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+
+.content {
+	background-color:#ffffff;
+	text-align: justify;
+}
+
+.img-circle {
+	width: 80px;
+	height: 80px;
+}
+
+.alert {
+	display: none;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.title {
+	font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 80px;
+	text-shadow: 13px 7px 7px #979191;
+	
+
+}
+.title2 {
+
+	font-family: 'Open Sans',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: bold;
+	font-size: 25px;
+	text-shadow: 0px 0px 7px #979191;
+}
+
+.title4 {
+	font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	text-shadow: 0px 0px 7px #979191;
+}
+
+.title5{
+
+	border: 3px solid rgb(255, 255, 255);
+	font-family: 'Open Sans','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #79e26b;
+	text-align: center;
+}
+
+.aboutTitle1{
+	font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	text-shadow: 0px 0px 0px #979191;
+	text-align: left;
+}
+
+.aboutparagraph1{
+
+	font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	text-shadow: 0px 0px 0px #979191;
+	text-align: justify;
+
+}
+
+.class1{
+	font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	text-shadow: 0px 0px 0px #979191;
+	text-align: center;
+}
+
+.class2{
+	font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-shadow: 0px 0px 0px #979191;
+	text-align: left;
+}
+
+.lead{
+	font-family: 'Open Sans','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-shadow: 0px 0px 7px #979191;
+
+}
+
+.footer {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0.4rem;
+	background-color: #ffffff;
+	text-align: center;
+  }
+
+.twitter-share-button {
+	position: absolute;
+	margin-left: 10px;
+}
+
+.disclaimer {
+	font-size: 70%;
+}
+
+#___plusone_0 {
+	position: absolute;
+	top: 0;
+	margin-left: 90px !important;
+}
+
+#share-button {
+	display: none;
+	background-color: #3b5998;
+	border: none;
+}
+
+#share-button:hover {
+	background-color: #354c8c;
+}
+
+#share-box{
+    padding-left: 15px;
+}
+
+#diagnosis-Result{
+	visibility: hidden;
+	border: 1px solid black;
+
+}
+.footer-copyright{
+	font-family: 'Open Sans','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	text-shadow: 0px 0px 7px #979191;
+}
+
+@media (max-width: 575.98px) {
+	.description {
+	  left: 0;
+	  padding: 0 15px;
+	  position: absolute;
+	  top: 10%;
+	  transform: none;
+	  text-align: center;
+	}
+	
+	.description h1 {
+	  font-size: 2em;
+	}
+	
+	.description p {
+	  font-size: 1.2rem;
+	}
+	
+	.features {
+	  margin: 0;
+	}
+  }
+
+  
+
